@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		18D8E627223C90EB006E89FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E626223C90EB006E89FC /* main.m */; };
 		18D8E631223C94F3006E89FC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E630223C94F3006E89FC /* Student.m */; };
+		18D8E634223CA350006E89FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E633223CA350006E89FC /* Person.m */; };
+		18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E636223CBD35006E89FC /* Property_Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		18D8E626223C90EB006E89FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D8E62F223C94F3006E89FC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		18D8E630223C94F3006E89FC /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		18D8E632223CA350006E89FC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18D8E633223CA350006E89FC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18D8E635223CBD35006E89FC /* Property_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property_Demo.h; sourceTree = "<group>"; };
+		18D8E636223CBD35006E89FC /* Property_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property_Demo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,10 @@
 			children = (
 				18D8E62F223C94F3006E89FC /* Student.h */,
 				18D8E630223C94F3006E89FC /* Student.m */,
+				18D8E632223CA350006E89FC /* Person.h */,
+				18D8E633223CA350006E89FC /* Person.m */,
+				18D8E635223CBD35006E89FC /* Property_Demo.h */,
+				18D8E636223CBD35006E89FC /* Property_Demo.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -131,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D8E634223CA350006E89FC /* Person.m in Sources */,
 				18D8E627223C90EB006E89FC /* main.m in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
+				18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

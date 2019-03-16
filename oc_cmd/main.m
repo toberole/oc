@@ -1,14 +1,8 @@
-//
-//  main.m
-//  oc_cmd
-//
-//  Created by Apple on 2019/3/16.
-//  Copyright © 2019年 Apple. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 #import "demo/Student.h"
+#import "demo/Person.h"
+#import "demo/Property_Demo.h"
 
 void test1(){
     // 第一种方法
@@ -28,13 +22,31 @@ void test1(){
     [stu1 setAge:22 andNo:33];
     NSLog(@"age = %i no = %i",[stu1 age],[stu1 no]);
     
+    // 第三种方法 分配内存并且初始化
+    Student *stu3 =[Student new];
+    stu3.age = 33;
+    
+}
+
+void test2(){
+    Person * p =[[Person alloc]initAgeaWithNo:10 andNo:20];
+    NSLog(@"age = %i no = %i",p.age,p.no);
+    NSLog(@"p: %@",[p description]);
+}
+
+void test3(){
+    Property_Demo *pd = [Property_Demo new];
+    pd.age = 11;
+    NSLog(@"age = %i",pd.age);
 }
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
-        test1();
+//        test1();
+//        test2();
+        test3();
     }
     return 0;
 }
