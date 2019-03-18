@@ -1,13 +1,16 @@
-//
-//  Property_Demo.m
-//  oc_cmd
-//
-//  Created by Apple on 2019/3/16.
-//  Copyright © 2019年 Apple. All rights reserved.
-//
 
 #import "Property_Demo.h"
+#import <Foundation/Foundation.h>
+
 
 @implementation Property_Demo
 
+@synthesize age;
+
+
+// 析构函数
+- (void)dealloc
+{
+    NSLog(@"\n Property_Demo dealloc\n");
+}
 @end

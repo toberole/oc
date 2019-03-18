@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA1076223F3004008D171F /* Student+Category4Student.m */; };
+		18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */; };
 		18D8E627223C90EB006E89FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E626223C90EB006E89FC /* main.m */; };
 		18D8E631223C94F3006E89FC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E630223C94F3006E89FC /* Student.m */; };
 		18D8E634223CA350006E89FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E633223CA350006E89FC /* Person.m */; };
@@ -26,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18BA1075223F3004008D171F /* Student+Category4Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Category4Student.h"; sourceTree = "<group>"; };
+		18BA1076223F3004008D171F /* Student+Category4Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Category4Student.m"; sourceTree = "<group>"; };
+		18BA1078223F3536008D171F /* Protocol_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol_Demo.h; sourceTree = "<group>"; };
+		18BA107A223F3656008D171F /* Protocol_Demo_Impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol_Demo_Impl.h; sourceTree = "<group>"; };
+		18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protocol_Demo_Impl.m; sourceTree = "<group>"; };
 		18D8E623223C90EB006E89FC /* oc_cmd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_cmd; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D8E626223C90EB006E89FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D8E62F223C94F3006E89FC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -81,6 +88,11 @@
 				18D8E633223CA350006E89FC /* Person.m */,
 				18D8E635223CBD35006E89FC /* Property_Demo.h */,
 				18D8E636223CBD35006E89FC /* Property_Demo.m */,
+				18BA1075223F3004008D171F /* Student+Category4Student.h */,
+				18BA1076223F3004008D171F /* Student+Category4Student.m */,
+				18BA1078223F3536008D171F /* Protocol_Demo.h */,
+				18BA107A223F3656008D171F /* Protocol_Demo_Impl.h */,
+				18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -143,7 +155,9 @@
 			files = (
 				18D8E634223CA350006E89FC /* Person.m in Sources */,
 				18D8E627223C90EB006E89FC /* main.m in Sources */,
+				18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
+				18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */,
 				18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

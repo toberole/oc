@@ -1,11 +1,3 @@
-//
-//  Property_Demo.h
-//  oc_cmd
-//
-//  Created by Apple on 2019/3/16.
-//  Copyright © 2019年 Apple. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -17,6 +9,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 编译器会自动实现 setter和getter
 @property int age;
+@property int no;
+
+// 编译器会自动的生成 _age1
+@property int age1;
+
+// 头文件没有声明 编译器会自动处理生成
+@property int no1;
 
 @end
 
