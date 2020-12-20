@@ -1,12 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "Protocol_Demo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Protocol_Demo_Impl : NSObject<Protocol_Demo>
-
-
-
+@interface Demo2_Test3 : NSObject
+@property int age;
+-(id)initWithAge:(int)age;
 @end
 
 NS_ASSUME_NONNULL_END

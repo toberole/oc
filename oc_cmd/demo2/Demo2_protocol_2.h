@@ -1,12 +1,9 @@
 #import <Foundation/Foundation.h>
-#import "Protocol_Demo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Protocol_Demo_Impl : NSObject<Protocol_Demo>
-
-
-
+@protocol Demo2_protocol_2 <NSObject>
+-(void)test2;
 @end
 
 NS_ASSUME_NONNULL_END

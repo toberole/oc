@@ -4,8 +4,11 @@
 #import "demo/Person.h"
 #import "demo/Student+Category4Student.h"
 #import "demo/Property_Demo.h"
+#import "demo1/Property_Test.h"
 
 #import "demo/Protocol_Demo_Impl.h"
+
+#include "cpp_demo_wrap/OC_CALL_CPP_wrap.h"
 
 #pragma mark 注视
 void test1(){
@@ -56,16 +59,106 @@ void test5(){
     [p test];
 }
 
-int main(int argc, const char * argv[]) {
+void test6(){
+    // 创建串行队列
+    dispatch_queue_t sq = dispatch_queue_create(NULL, DISPATCH_QUEUE_SERIAL);
+    
+    dispatch_async(sq, ^(){
+        NSLog(@"dispatch _async");
+    });
+    
+    // 创建并发队列
+    dispatch_queue_t cq = dispatch_queue_create(NULL, DISPATCH_QUEUE_CONCURRENT);
+    
+    // 获取全局并发队列
+
+}
+
+void test7(){
+    printf("hello printf");
+    NSLog(@"Hello main");
+}
+
+void test8(){
+    Student*stu =[[Student alloc] initWithAge:20 andNO:20];
+    
+    NSLog(@"age = %i",stu.age);
+}
+
+void test9(){
+    Student*stu = [Student alloc];
+    stu.age = 11;
+}
+
+void test10(){
+    Property_Test *p = [Property_Test alloc];
+    p.age = 100;
+    p.age1 = 200;
+    p.age2 = 300;
+    
+    
+}
+
+// 可以动态的为已经存在的类添加新的行为。这样可以保证类的原始设计规模较小，功能增加时再逐步扩展。
+// 使用Category对类进行扩展时，不需要访问其源代码，也不需要创建子类。Category使用简单的方式，实现了类的相关方法的模块化，把不同的类方法分配到不同的分类文件中。
+void test11(){
+    Student*stu = [[Student alloc]init];
+    [stu test];
+}
+
+
+void test12(){
+    
+}
+
+void test14(){
+    Student * stu = [[Student alloc]init];
+    [stu test];
+}
+
+
+/// block 类似函数指针
+// 类似一个全局的
+/*
+typedef int(^Block_test)(int a,int b);
+
+void test13(){
+    
+    int n = 10;
+    
+    // 定义一个block
+    int(^Sum)(int a,int b)  = ^(int a,int b){
+        // 使用变量 n 只能读 不能写
+        NSLog(@"sum n = %i",n);
+        return a+b;
+    };
+    
+    NSLog(@"sum = %i",Sum(1,2));
+    
+    // __block z表明后面的变量可以被block修改
+    __block int k = 10;
+    int(^Sum1)(int a,int b)  = ^(int a,int b){
+        // 使用变量 k 能读写
+        k++;
+        NSLog(@"sum1 k = %i",k);
+        return a+b;
+    };
+}
+*/
+
+void test15(){
+   OC_CALL_CPP_wrap*p =  [[OC_CALL_CPP_wrap alloc]init_OC_CALL_CPP:@"Hello World" andAge:110];
+    [p printInfo];
+    NSLog(@"info: %@",[p getInfo]);
+    [p destroy];
+}
+
+int main1(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         NSLog(@"Hello, World!");
-//        test1();
-//        test2();
-//        test3();
-        test4();
-        test5();
+        NSString *str = [NSString stringWithString:@"hello"];
         
+        test15();
     }
     return 0;
 }
