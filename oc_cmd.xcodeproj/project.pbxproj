@@ -28,6 +28,7 @@
 		18D8E631223C94F3006E89FC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E630223C94F3006E89FC /* Student.m */; };
 		18D8E634223CA350006E89FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E633223CA350006E89FC /* Person.m */; };
 		18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E636223CBD35006E89FC /* Property_Demo.m */; };
+		18E30C57258F6E0800477063 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E30C56258F6E0800477063 /* Constant.m */; };
 		18FB35832392960F007C95BA /* Property_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB35822392960F007C95BA /* Property_Test.m */; };
 		18FB35892392A087007C95BA /* Property_Stu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB35882392A087007C95BA /* Property_Stu.m */; };
 		18FB358C2392A09C007C95BA /* Property_Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB358B2392A09C007C95BA /* Property_Book.m */; };
@@ -90,6 +91,8 @@
 		18D8E633223CA350006E89FC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		18D8E635223CBD35006E89FC /* Property_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property_Demo.h; sourceTree = "<group>"; };
 		18D8E636223CBD35006E89FC /* Property_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property_Demo.m; sourceTree = "<group>"; };
+		18E30C55258F6DEB00477063 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		18E30C56258F6E0800477063 /* Constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		18FB35812392960F007C95BA /* Property_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property_Test.h; sourceTree = "<group>"; };
 		18FB35822392960F007C95BA /* Property_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property_Test.m; sourceTree = "<group>"; };
 		18FB358423929859007C95BA /* Person_Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person_Property.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				183E6D18258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m */,
 				183E6D1A258EF071002BC9AA /* Demo2_KVC_KVO.h */,
 				183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */,
+				18E30C55258F6DEB00477063 /* Constant.h */,
+				18E30C56258F6E0800477063 /* Constant.m */,
 			);
 			path = demo2;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */,
 				18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */,
 				183E6CFE258DEB99002BC9AA /* A.m in Sources */,
+				18E30C57258F6E0800477063 /* Constant.m in Sources */,
 				18FB358C2392A09C007C95BA /* Property_Book.m in Sources */,
 				18FB35832392960F007C95BA /* Property_Test.m in Sources */,
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,

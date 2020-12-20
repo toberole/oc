@@ -1,9 +1,9 @@
 #import "Demo2_Copy.h"
 
 @implementation Demo2_Copy
-- (id)copy{
+- (id)copyWithZone:(NSZone *)zone{
     NSLog(@"copy ......");
-    return self;
+    return  [[Demo2_Copy allocWithZone:zone]init];
 }
 
 - (id)mutableCopy{
