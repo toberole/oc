@@ -22,8 +22,11 @@
 		18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18AC515A258B4931007EFACF /* OC_CALL_CPP_Wrap.mm */; };
 		18AC5162258B5F9B007EFACF /* main_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC5161258B5F9B007EFACF /* main_1.m */; };
 		18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC5164258B71AA007EFACF /* Demo2_Test1.m */; };
+		18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2AA3025957724003A20A0 /* Demo_Test4.m */; };
 		18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA1076223F3004008D171F /* Student+Category4Student.m */; };
 		18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */; };
+		18BFC13225962FE400E67817 /* main_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC13125962FE400E67817 /* main_3.m */; };
+		18BFC1362596302200E67817 /* Demo3_Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC1352596302200E67817 /* Demo3_Test1.m */; };
 		18D8E627223C90EB006E89FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E626223C90EB006E89FC /* main.m */; };
 		18D8E631223C94F3006E89FC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E630223C94F3006E89FC /* Student.m */; };
 		18D8E634223CA350006E89FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E633223CA350006E89FC /* Person.m */; };
@@ -78,11 +81,16 @@
 		18AC5161258B5F9B007EFACF /* main_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_1.m; sourceTree = "<group>"; };
 		18AC5163258B71AA007EFACF /* Demo2_Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test1.h; sourceTree = "<group>"; };
 		18AC5164258B71AA007EFACF /* Demo2_Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_Test1.m; sourceTree = "<group>"; };
+		18B2AA2F25957724003A20A0 /* Demo_Test4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_Test4.h; sourceTree = "<group>"; };
+		18B2AA3025957724003A20A0 /* Demo_Test4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Test4.m; sourceTree = "<group>"; };
 		18BA1075223F3004008D171F /* Student+Category4Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Category4Student.h"; sourceTree = "<group>"; };
 		18BA1076223F3004008D171F /* Student+Category4Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Category4Student.m"; sourceTree = "<group>"; };
 		18BA1078223F3536008D171F /* Protocol_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol_Demo.h; sourceTree = "<group>"; };
 		18BA107A223F3656008D171F /* Protocol_Demo_Impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol_Demo_Impl.h; sourceTree = "<group>"; };
 		18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protocol_Demo_Impl.m; sourceTree = "<group>"; };
+		18BFC13125962FE400E67817 /* main_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_3.m; sourceTree = "<group>"; };
+		18BFC1342596302200E67817 /* Demo3_Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3_Test1.h; sourceTree = "<group>"; };
+		18BFC1352596302200E67817 /* Demo3_Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3_Test1.m; sourceTree = "<group>"; };
 		18D8E623223C90EB006E89FC /* oc_cmd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_cmd; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D8E626223C90EB006E89FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D8E62F223C94F3006E89FC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -161,8 +169,19 @@
 				183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */,
 				18E30C55258F6DEB00477063 /* Constant.h */,
 				18E30C56258F6E0800477063 /* Constant.m */,
+				18B2AA2F25957724003A20A0 /* Demo_Test4.h */,
+				18B2AA3025957724003A20A0 /* Demo_Test4.m */,
 			);
 			path = demo2;
+			sourceTree = "<group>";
+		};
+		18BFC1332596300900E67817 /* demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				18BFC1342596302200E67817 /* Demo3_Test1.h */,
+				18BFC1352596302200E67817 /* Demo3_Test1.m */,
+			);
+			path = demo3;
 			sourceTree = "<group>";
 		};
 		18D8E61A223C90EB006E89FC = {
@@ -184,6 +203,7 @@
 		18D8E625223C90EB006E89FC /* oc_cmd */ = {
 			isa = PBXGroup;
 			children = (
+				18BFC1332596300900E67817 /* demo3 */,
 				18AC515D258B5B5A007EFACF /* demo2 */,
 				18AC5158258B490E007EFACF /* cpp_demo_wrap */,
 				18AC5151258B414F007EFACF /* cpp_demo */,
@@ -192,6 +212,7 @@
 				18D8E626223C90EB006E89FC /* main.m */,
 				18AC5161258B5F9B007EFACF /* main_1.m */,
 				183E6D1D258EF51D002BC9AA /* main_2.m */,
+				18BFC13125962FE400E67817 /* main_3.m */,
 			);
 			path = oc_cmd;
 			sourceTree = "<group>";
@@ -288,10 +309,13 @@
 				18D8E634223CA350006E89FC /* Person.m in Sources */,
 				183E6D1E258EF51D002BC9AA /* main_2.m in Sources */,
 				183E6D07258E063B002BC9AA /* Demo2_Category.m in Sources */,
+				18BFC13225962FE400E67817 /* main_3.m in Sources */,
+				18BFC1362596302200E67817 /* Demo3_Test1.m in Sources */,
 				183E6D14258E3704002BC9AA /* Demo2_Copy.m in Sources */,
 				18FB35892392A087007C95BA /* Property_Stu.m in Sources */,
 				18D8E627223C90EB006E89FC /* main.m in Sources */,
 				18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */,
+				18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */,
 				183E6D11258E1251002BC9AA /* Demo2_Protocol_Impl.m in Sources */,
 				187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */,
 				183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */,

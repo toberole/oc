@@ -1,9 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "Demo2_Copy.h"
 #import "Constant.h"
-
-
-
+#import "Demo_Test4.h"
 
 void test1_main2(){
     typedef struct DemoStruct{
@@ -154,7 +152,35 @@ void test6_main2(){
        
 }
 
-int main(int argc, const char * argv[]) {
+void test7_main2(){
+    short d[] = {1,2,3,4,5};
+    NSData *data1 = [NSData dataWithBytes:d length:5 * sizeof(short)];
+    short*bytes = (short*)[data1 bytes];
+    NSLog(@"data: %lu",[data1 length]);
+    for (int i = 0; i < [data1 length]/2; i++) {
+        short n = bytes[i];
+        NSLog(@"data: %i",n);
+    }
+}
+
+/**
+ __strong使用
+ 除了在Block外使用__weak对对象进行弱引用,我们偶尔还需要在Block内部对弱引用对象进行一次强引用,这是由于, 仅用__weak所修饰的对象,如果被释放,那么这个对象在Block执行的过程中就会变成nil,这就可能会带来一些问题,比如,数组,字典的插入.
+ 正确的做法是,在Block执行的开始,检验弱引用的对象是否还存在,如果还存在,使用__strong进行强引用,这样,在Block执行的过程中,这个对象就不会被置为nil,而在Block执行完毕后,对象的引用计数就会-1,这样就不会导致对象无法释放.
+
+ */
+
+/**
+ __weak修饰的对象被Block引用,不会影响对象的释放,而__strong在Block内部修饰的对象,会保证,在使用这个对象在scope内,这个对象都不会被释放,出了scope,引用计数就会-1,且__strong主要是用在多线程运用中,若果只使用单线程,只需要使用__weak即可
+ */
+// 声明一个myblock变量
+void(^myblock)(void);
+void test8_main2(){
+    Demo_Test4*obj = [[Demo_Test4 alloc]init];
+    
+}
+
+int main3(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         printf("Hello, World! ...... printf \n");
@@ -164,7 +190,8 @@ int main(int argc, const char * argv[]) {
         // test3_main2();
         // test4_main2();
         // test5_main2();
-        test6_main2();
+        // test6_main2();
+        test7_main2();
     }
     
     [NSThread sleepForTimeInterval:1];
