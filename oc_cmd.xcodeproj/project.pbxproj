@@ -18,6 +18,11 @@
 		183E6D1E258EF51D002BC9AA /* main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1D258EF51D002BC9AA /* main_2.m */; };
 		187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C89258CF70B00C880E0 /* Demo2_Test2.m */; };
 		187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C8C258D057400C880E0 /* Demo2_Test3.m */; };
+		18A6888925985FEF00FF3426 /* Demo3_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6888825985FEF00FF3426 /* Demo3_Test2.m */; };
+		18A6888C259861AA00FF3426 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6888B259861AA00FF3426 /* Animal.m */; };
+		18A6888F2598631C00FF3426 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6888E2598631C00FF3426 /* Dog.m */; };
+		18A688922598649300FF3426 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A688912598649300FF3426 /* Cat.m */; };
+		18A6889B259879A000FF3426 /* ThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6889A259879A000FF3426 /* ThreadDemo.m */; };
 		18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18AC5155258B46B0007EFACF /* OC_CALL_CPP.cpp */; };
 		18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18AC515A258B4931007EFACF /* OC_CALL_CPP_Wrap.mm */; };
 		18AC5162258B5F9B007EFACF /* main_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC5161258B5F9B007EFACF /* main_1.m */; };
@@ -74,6 +79,16 @@
 		187A5C89258CF70B00C880E0 /* Demo2_Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_Test2.m; sourceTree = "<group>"; };
 		187A5C8B258D057400C880E0 /* Demo2_Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test3.h; sourceTree = "<group>"; };
 		187A5C8C258D057400C880E0 /* Demo2_Test3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_Test3.m; sourceTree = "<group>"; };
+		18A6888725985FEF00FF3426 /* Demo3_Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3_Test2.h; sourceTree = "<group>"; };
+		18A6888825985FEF00FF3426 /* Demo3_Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3_Test2.m; sourceTree = "<group>"; };
+		18A6888A259861AA00FF3426 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		18A6888B259861AA00FF3426 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		18A6888D2598631C00FF3426 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		18A6888E2598631C00FF3426 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		18A688902598649300FF3426 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		18A688912598649300FF3426 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		18A68899259879A000FF3426 /* ThreadDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadDemo.h; sourceTree = "<group>"; };
+		18A6889A259879A000FF3426 /* ThreadDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadDemo.m; sourceTree = "<group>"; };
 		18AC5155258B46B0007EFACF /* OC_CALL_CPP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OC_CALL_CPP.cpp; sourceTree = "<group>"; };
 		18AC5156258B46B0007EFACF /* OC_CALL_CPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_CALL_CPP.h; sourceTree = "<group>"; };
 		18AC515A258B4931007EFACF /* OC_CALL_CPP_Wrap.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OC_CALL_CPP_Wrap.mm; sourceTree = "<group>"; };
@@ -180,6 +195,16 @@
 			children = (
 				18BFC1342596302200E67817 /* Demo3_Test1.h */,
 				18BFC1352596302200E67817 /* Demo3_Test1.m */,
+				18A6888725985FEF00FF3426 /* Demo3_Test2.h */,
+				18A6888825985FEF00FF3426 /* Demo3_Test2.m */,
+				18A6888A259861AA00FF3426 /* Animal.h */,
+				18A6888B259861AA00FF3426 /* Animal.m */,
+				18A6888D2598631C00FF3426 /* Dog.h */,
+				18A6888E2598631C00FF3426 /* Dog.m */,
+				18A688902598649300FF3426 /* Cat.h */,
+				18A688912598649300FF3426 /* Cat.m */,
+				18A68899259879A000FF3426 /* ThreadDemo.h */,
+				18A6889A259879A000FF3426 /* ThreadDemo.m */,
 			);
 			path = demo3;
 			sourceTree = "<group>";
@@ -320,18 +345,23 @@
 				187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */,
 				183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */,
 				18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */,
+				18A6889B259879A000FF3426 /* ThreadDemo.m in Sources */,
 				18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */,
 				183E6CFE258DEB99002BC9AA /* A.m in Sources */,
 				18E30C57258F6E0800477063 /* Constant.m in Sources */,
 				18FB358C2392A09C007C95BA /* Property_Book.m in Sources */,
+				18A6888925985FEF00FF3426 /* Demo3_Test2.m in Sources */,
 				18FB35832392960F007C95BA /* Property_Test.m in Sources */,
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,
 				187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */,
 				18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */,
 				18AC5162258B5F9B007EFACF /* main_1.m in Sources */,
+				18A688922598649300FF3426 /* Cat.m in Sources */,
+				18A6888F2598631C00FF3426 /* Dog.m in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
 				183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */,
 				18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */,
+				18A6888C259861AA00FF3426 /* Animal.m in Sources */,
 				183E6D01258DEBB0002BC9AA /* B.m in Sources */,
 				18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */,
 			);

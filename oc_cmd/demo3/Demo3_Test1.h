@@ -5,6 +5,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Demo3_Test1 : NSObject
 
 @property NSArray* n;
+
 @property NSString*str;
 
 @property (nonatomic,strong) NSString*lazy_load;
