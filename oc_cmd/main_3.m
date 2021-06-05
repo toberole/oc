@@ -76,7 +76,7 @@ void *start(void*data){
 void test8_demo3(){
     pthread_t thread;
     NSString*data = @"Hello thread ......";
-    pthread_create(&thread,NULL,start,CFBridgingRetain(data));
+//    pthread_create(&thread,NULL,start,CFBridgingRetain(data));
 }
 
 void test9_demo3(){
@@ -89,7 +89,7 @@ void test9_demo3(){
     [demo test3];
 }
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         // test1_demo3();

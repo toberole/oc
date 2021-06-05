@@ -16,6 +16,8 @@
 		183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D18258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m */; };
 		183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */; };
 		183E6D1E258EF51D002BC9AA /* main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1D258EF51D002BC9AA /* main_2.m */; };
+		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
+		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C89258CF70B00C880E0 /* Demo2_Test2.m */; };
 		187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C8C258D057400C880E0 /* Demo2_Test3.m */; };
 		18A6888925985FEF00FF3426 /* Demo3_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6888825985FEF00FF3426 /* Demo3_Test2.m */; };
@@ -75,6 +77,10 @@
 		183E6D1A258EF071002BC9AA /* Demo2_KVC_KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_KVC_KVO.h; sourceTree = "<group>"; };
 		183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_KVC_KVO.m; sourceTree = "<group>"; };
 		183E6D1D258EF51D002BC9AA /* main_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_2.m; sourceTree = "<group>"; };
+		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
+		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
+		18796965266B773F00473C30 /* DemoBean1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean1.m; sourceTree = "<group>"; };
 		187A5C88258CF70B00C880E0 /* Demo2_Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test2.h; sourceTree = "<group>"; };
 		187A5C89258CF70B00C880E0 /* Demo2_Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_Test2.m; sourceTree = "<group>"; };
 		187A5C8B258D057400C880E0 /* Demo2_Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test3.h; sourceTree = "<group>"; };
@@ -136,6 +142,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1879695C266B758600473C30 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				1879695E266B75B500473C30 /* README.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		18796963266B771200473C30 /* demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				18796964266B773F00473C30 /* DemoBean1.h */,
+				18796965266B773F00473C30 /* DemoBean1.m */,
+			);
+			path = demo4;
+			sourceTree = "<group>";
+		};
 		18AC5151258B414F007EFACF /* cpp_demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +235,7 @@
 		18D8E61A223C90EB006E89FC = {
 			isa = PBXGroup;
 			children = (
+				1879695C266B758600473C30 /* doc */,
 				18D8E625223C90EB006E89FC /* oc_cmd */,
 				18D8E624223C90EB006E89FC /* Products */,
 			);
@@ -228,6 +252,7 @@
 		18D8E625223C90EB006E89FC /* oc_cmd */ = {
 			isa = PBXGroup;
 			children = (
+				18796963266B771200473C30 /* demo4 */,
 				18BFC1332596300900E67817 /* demo3 */,
 				18AC515D258B5B5A007EFACF /* demo2 */,
 				18AC5158258B490E007EFACF /* cpp_demo_wrap */,
@@ -238,6 +263,7 @@
 				18AC5161258B5F9B007EFACF /* main_1.m */,
 				183E6D1D258EF51D002BC9AA /* main_2.m */,
 				18BFC13125962FE400E67817 /* main_3.m */,
+				18796960266B769C00473C30 /* main_4.m */,
 			);
 			path = oc_cmd;
 			sourceTree = "<group>";
@@ -335,9 +361,11 @@
 				183E6D1E258EF51D002BC9AA /* main_2.m in Sources */,
 				183E6D07258E063B002BC9AA /* Demo2_Category.m in Sources */,
 				18BFC13225962FE400E67817 /* main_3.m in Sources */,
+				18796966266B773F00473C30 /* DemoBean1.m in Sources */,
 				18BFC1362596302200E67817 /* Demo3_Test1.m in Sources */,
 				183E6D14258E3704002BC9AA /* Demo2_Copy.m in Sources */,
 				18FB35892392A087007C95BA /* Property_Stu.m in Sources */,
+				18796961266B769C00473C30 /* main_4.m in Sources */,
 				18D8E627223C90EB006E89FC /* main.m in Sources */,
 				18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */,
 				18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */,

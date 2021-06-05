@@ -7,8 +7,7 @@
 #import "demo1/Property_Test.h"
 
 #import "demo/Protocol_Demo_Impl.h"
-
-#include "cpp_demo_wrap/OC_CALL_CPP_wrap.h"
+#include "cpp_demo_wrap/OC_CALL_CPP_Wrap.h"
 
 #pragma mark 注视
 void test1(){
