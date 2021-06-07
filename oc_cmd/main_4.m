@@ -8,12 +8,24 @@ void main4_task1(NSString*str){
 void main4_test(){
     DemoBean1*demo1 = [[DemoBean1 alloc]init];
     [demo1 test];
+//    [demo1 performSelector:@selector(test) withObject:@"Hello"];
+//
+}
+
+void main4_test1(){
+    void(^block)(void) = ^(){
+        NSLog(@"main4_test1 b ......");
+    };
     
-    [demo1 performSelector:@selector(test) withObject:@"Hello"];
-    
+    NSLog(@"%@", [block class]);
+    NSLog(@"%@", [block superclass]);
+    NSLog(@"%@", [[block superclass] superclass]);
+    NSLog(@"%@", [[[block superclass] superclass] superclass]);
+
 }
 
 int main(int argc, const char * argv[]) {
     NSLog(@"main_4 ......");
-    main4_test();
+//    main4_test();
+    main4_test1();
 }

@@ -10,4 +10,9 @@
     NSLog(@"DemoBean1 ......");
 }
 
++ (BOOL)resolveClassMethod:(SEL)sel{
+    NSLog(@"resolveClassMethod ......");
+    return true;
+}
+
 @end
