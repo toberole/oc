@@ -40,10 +40,38 @@ void main4_test3(){
     [data length];
 }
 
+void main4_test4(){
+    NSCache*cache = [[NSCache alloc]init];
+    [cache setCountLimit:5];
+    [cache setTotalCostLimit:5];
+}
+
+void main4_test5(int *p){
+    NSLock*lock = [[NSLock alloc]init];
+    [NSThread detachNewThreadWithBlock:^{
+            for (int n = 0; n<1000; n++) {
+                NSLog(@"++++++++++++++++++++");
+                (*p)++;
+            }
+        }];
+    
+    [NSThread detachNewThreadWithBlock:^{
+            for (int n = 0; n<1000; n++) {
+                NSLog(@"*******************");
+                (*p)++;
+                
+            }
+        }];
+}
+
 int main(int argc, const char * argv[]) {
     NSLog(@"main_4 ......");
-    main4_test3();
+//    main4_test3();
 //    main4_test();
 //    main4_test1();
 //    main4_test2();
+    int i = 0;
+    main4_test5(&i);
+    [NSThread sleepForTimeInterval:10];
+    NSLog(@"i = %d",i);
 }
