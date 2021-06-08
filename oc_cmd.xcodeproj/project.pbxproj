@@ -18,6 +18,9 @@
 		183E6D1E258EF51D002BC9AA /* main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1D258EF51D002BC9AA /* main_2.m */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
+		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
+		187969E4266E1D4F00473C30 /* DemoBean2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969E3266E1D4F00473C30 /* DemoBean2.m */; };
+		187969E8266E1DB500473C30 /* DemoBean3.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969E7266E1DB500473C30 /* DemoBean3.m */; };
 		187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C89258CF70B00C880E0 /* Demo2_Test2.m */; };
 		187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A5C8C258D057400C880E0 /* Demo2_Test3.m */; };
 		18A6888925985FEF00FF3426 /* Demo3_Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6888825985FEF00FF3426 /* Demo3_Test2.m */; };
@@ -81,6 +84,12 @@
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
 		18796965266B773F00473C30 /* DemoBean1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean1.m; sourceTree = "<group>"; };
+		187969DE266DFE5D00473C30 /* Load_Initialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Load_Initialize.h; sourceTree = "<group>"; };
+		187969DF266DFE5D00473C30 /* Load_Initialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Load_Initialize.m; sourceTree = "<group>"; };
+		187969E2266E1D4F00473C30 /* DemoBean2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean2.h; sourceTree = "<group>"; };
+		187969E3266E1D4F00473C30 /* DemoBean2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean2.m; sourceTree = "<group>"; };
+		187969E6266E1DB500473C30 /* DemoBean3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean3.h; sourceTree = "<group>"; };
+		187969E7266E1DB500473C30 /* DemoBean3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean3.m; sourceTree = "<group>"; };
 		187A5C88258CF70B00C880E0 /* Demo2_Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test2.h; sourceTree = "<group>"; };
 		187A5C89258CF70B00C880E0 /* Demo2_Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_Test2.m; sourceTree = "<group>"; };
 		187A5C8B258D057400C880E0 /* Demo2_Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_Test3.h; sourceTree = "<group>"; };
@@ -155,6 +164,12 @@
 			children = (
 				18796964266B773F00473C30 /* DemoBean1.h */,
 				18796965266B773F00473C30 /* DemoBean1.m */,
+				187969DE266DFE5D00473C30 /* Load_Initialize.h */,
+				187969DF266DFE5D00473C30 /* Load_Initialize.m */,
+				187969E2266E1D4F00473C30 /* DemoBean2.h */,
+				187969E3266E1D4F00473C30 /* DemoBean2.m */,
+				187969E6266E1DB500473C30 /* DemoBean3.h */,
+				187969E7266E1DB500473C30 /* DemoBean3.m */,
 			);
 			path = demo4;
 			sourceTree = "<group>";
@@ -370,6 +385,7 @@
 				18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */,
 				18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */,
 				183E6D11258E1251002BC9AA /* Demo2_Protocol_Impl.m in Sources */,
+				187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */,
 				187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */,
 				183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */,
 				18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */,
@@ -381,10 +397,12 @@
 				18A6888925985FEF00FF3426 /* Demo3_Test2.m in Sources */,
 				18FB35832392960F007C95BA /* Property_Test.m in Sources */,
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,
+				187969E4266E1D4F00473C30 /* DemoBean2.m in Sources */,
 				187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */,
 				18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */,
 				18AC5162258B5F9B007EFACF /* main_1.m in Sources */,
 				18A688922598649300FF3426 /* Cat.m in Sources */,
+				187969E8266E1DB500473C30 /* DemoBean3.m in Sources */,
 				18A6888F2598631C00FF3426 /* Dog.m in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
 				183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */,
