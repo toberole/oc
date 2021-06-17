@@ -19,6 +19,7 @@
 		1859D49D267883590052D10A /* main_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D49C267883590052D10A /* main_5.m */; };
 		18763F62267AEB5A00078D83 /* Test_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F60267AEB5A00078D83 /* Test_Demo.cpp */; };
 		18763F66267AF13800078D83 /* DemoBean4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F65267AF13800078D83 /* DemoBean4.m */; };
+		18763F6A267AF63B00078D83 /* DemoBean5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F69267AF63B00078D83 /* DemoBean5.m */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
@@ -90,6 +91,8 @@
 		18763F61267AEB5A00078D83 /* Test_Demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test_Demo.hpp; sourceTree = "<group>"; };
 		18763F64267AF13800078D83 /* DemoBean4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean4.h; sourceTree = "<group>"; };
 		18763F65267AF13800078D83 /* DemoBean4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean4.m; sourceTree = "<group>"; };
+		18763F68267AF63B00078D83 /* DemoBean5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean5.h; sourceTree = "<group>"; };
+		18763F69267AF63B00078D83 /* DemoBean5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean5.m; sourceTree = "<group>"; };
 		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 				187969E7266E1DB500473C30 /* DemoBean3.m */,
 				18763F64267AF13800078D83 /* DemoBean4.h */,
 				18763F65267AF13800078D83 /* DemoBean4.m */,
+				18763F68267AF63B00078D83 /* DemoBean5.h */,
+				18763F69267AF63B00078D83 /* DemoBean5.m */,
 			);
 			path = demo4;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18763F6A267AF63B00078D83 /* DemoBean5.m in Sources */,
 				18D8E634223CA350006E89FC /* Person.m in Sources */,
 				183E6D1E258EF51D002BC9AA /* main_2.m in Sources */,
 				183E6D07258E063B002BC9AA /* Demo2_Category.m in Sources */,
