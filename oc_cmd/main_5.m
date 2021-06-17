@@ -16,8 +16,14 @@ void main5_test2(){
     NSData*data = [NSKeyedArchiver archivedDataWithRootObject:demo requiringSecureCoding:YES error:&error];
     
     // 反序列化
-    demo = [NSKeyedUnarchiver unarchivedArrayOfObjectsOfClass:NSClassFromString(@"DemoBean4") fromData:data error:&error];
-
+    if (@available(macOS 11.0, *)) {
+        NSArray*arr = [NSKeyedUnarchiver unarchivedArrayOfObjectsOfClass:NSClassFromString(@"DemoBean4") fromData:data error:&error];
+        if (nil!=arr &&[arr count]>0) {
+            demo = arr[0];
+        }
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 int main(int argc, const char * argv[]) {
