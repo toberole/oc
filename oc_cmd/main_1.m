@@ -78,7 +78,7 @@ void test4_main1(){
     b = [p respondsToSelector:@selector(test2)];
 }
 
-int main2(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         printf("Hello, World! ...... printf \n");

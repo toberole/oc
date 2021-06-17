@@ -152,7 +152,7 @@ void test15(){
     [p destroy];
 }
 
-int main1(int argc, const char * argv[]) {
+int main0(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         NSString *str = [NSString stringWithString:@"hello"];

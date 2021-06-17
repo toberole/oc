@@ -89,7 +89,7 @@ void test9_demo3(){
     [demo test3];
 }
 
-int main4(int argc, const char * argv[]) {
+int main3(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         // test1_demo3();

@@ -1,6 +1,4 @@
-
-#ifndef OC_CALL_CPP_hpp
-#define OC_CALL_CPP_hpp
+#pragma once
 
 #include <stdio.h>
 #include <string>
@@ -17,5 +15,3 @@ public:
     void printInfo();
     std::string getInfo();
 };
-
-#endif /* OC_CALL_CPP_hpp */

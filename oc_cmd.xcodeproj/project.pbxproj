@@ -16,6 +16,9 @@
 		183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D18258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m */; };
 		183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */; };
 		183E6D1E258EF51D002BC9AA /* main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E6D1D258EF51D002BC9AA /* main_2.m */; };
+		1859D49D267883590052D10A /* main_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D49C267883590052D10A /* main_5.m */; };
+		18763F62267AEB5A00078D83 /* Test_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F60267AEB5A00078D83 /* Test_Demo.cpp */; };
+		18763F66267AF13800078D83 /* DemoBean4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F65267AF13800078D83 /* DemoBean4.m */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
@@ -37,7 +40,7 @@
 		18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA107B223F3656008D171F /* Protocol_Demo_Impl.m */; };
 		18BFC13225962FE400E67817 /* main_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC13125962FE400E67817 /* main_3.m */; };
 		18BFC1362596302200E67817 /* Demo3_Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC1352596302200E67817 /* Demo3_Test1.m */; };
-		18D8E627223C90EB006E89FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E626223C90EB006E89FC /* main.m */; };
+		18D8E627223C90EB006E89FC /* main_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E626223C90EB006E89FC /* main_0.m */; };
 		18D8E631223C94F3006E89FC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E630223C94F3006E89FC /* Student.m */; };
 		18D8E634223CA350006E89FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E633223CA350006E89FC /* Person.m */; };
 		18D8E637223CBD35006E89FC /* Property_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8E636223CBD35006E89FC /* Property_Demo.m */; };
@@ -80,6 +83,13 @@
 		183E6D1A258EF071002BC9AA /* Demo2_KVC_KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2_KVC_KVO.h; sourceTree = "<group>"; };
 		183E6D1B258EF071002BC9AA /* Demo2_KVC_KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_KVC_KVO.m; sourceTree = "<group>"; };
 		183E6D1D258EF51D002BC9AA /* main_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_2.m; sourceTree = "<group>"; };
+		1859D49C267883590052D10A /* main_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_5.m; sourceTree = "<group>"; };
+		1859D4A52678981B0052D10A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18763F55267AE6BB00078D83 /* oc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = oc.md; sourceTree = "<group>"; };
+		18763F60267AEB5A00078D83 /* Test_Demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test_Demo.cpp; sourceTree = "<group>"; };
+		18763F61267AEB5A00078D83 /* Test_Demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test_Demo.hpp; sourceTree = "<group>"; };
+		18763F64267AF13800078D83 /* DemoBean4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean4.h; sourceTree = "<group>"; };
+		18763F65267AF13800078D83 /* DemoBean4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean4.m; sourceTree = "<group>"; };
 		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
@@ -122,7 +132,7 @@
 		18BFC1342596302200E67817 /* Demo3_Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3_Test1.h; sourceTree = "<group>"; };
 		18BFC1352596302200E67817 /* Demo3_Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3_Test1.m; sourceTree = "<group>"; };
 		18D8E623223C90EB006E89FC /* oc_cmd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_cmd; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D8E626223C90EB006E89FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D8E626223C90EB006E89FC /* main_0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_0.m; sourceTree = "<group>"; };
 		18D8E62F223C94F3006E89FC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		18D8E630223C94F3006E89FC /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		18D8E632223CA350006E89FC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -151,10 +161,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1859D4A42678981B0052D10A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1859D4A52678981B0052D10A /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1879695C266B758600473C30 /* doc */ = {
 			isa = PBXGroup;
 			children = (
 				1879695E266B75B500473C30 /* README.md */,
+				18763F55267AE6BB00078D83 /* oc.md */,
 			);
 			path = doc;
 			sourceTree = "<group>";
@@ -170,6 +189,8 @@
 				187969E3266E1D4F00473C30 /* DemoBean2.m */,
 				187969E6266E1DB500473C30 /* DemoBean3.h */,
 				187969E7266E1DB500473C30 /* DemoBean3.m */,
+				18763F64267AF13800078D83 /* DemoBean4.h */,
+				18763F65267AF13800078D83 /* DemoBean4.m */,
 			);
 			path = demo4;
 			sourceTree = "<group>";
@@ -179,6 +200,8 @@
 			children = (
 				18AC5155258B46B0007EFACF /* OC_CALL_CPP.cpp */,
 				18AC5156258B46B0007EFACF /* OC_CALL_CPP.h */,
+				18763F60267AEB5A00078D83 /* Test_Demo.cpp */,
+				18763F61267AEB5A00078D83 /* Test_Demo.hpp */,
 			);
 			path = cpp_demo;
 			sourceTree = "<group>";
@@ -253,6 +276,7 @@
 				1879695C266B758600473C30 /* doc */,
 				18D8E625223C90EB006E89FC /* oc_cmd */,
 				18D8E624223C90EB006E89FC /* Products */,
+				1859D4A42678981B0052D10A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -274,11 +298,12 @@
 				18AC5151258B414F007EFACF /* cpp_demo */,
 				18FB357A2390E4E0007C95BA /* demo1 */,
 				18D8E62E223C94AA006E89FC /* demo */,
-				18D8E626223C90EB006E89FC /* main.m */,
+				18D8E626223C90EB006E89FC /* main_0.m */,
 				18AC5161258B5F9B007EFACF /* main_1.m */,
 				183E6D1D258EF51D002BC9AA /* main_2.m */,
 				18BFC13125962FE400E67817 /* main_3.m */,
 				18796960266B769C00473C30 /* main_4.m */,
+				1859D49C267883590052D10A /* main_5.m */,
 			);
 			path = oc_cmd;
 			sourceTree = "<group>";
@@ -381,7 +406,7 @@
 				183E6D14258E3704002BC9AA /* Demo2_Copy.m in Sources */,
 				18FB35892392A087007C95BA /* Property_Stu.m in Sources */,
 				18796961266B769C00473C30 /* main_4.m in Sources */,
-				18D8E627223C90EB006E89FC /* main.m in Sources */,
+				18D8E627223C90EB006E89FC /* main_0.m in Sources */,
 				18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */,
 				18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */,
 				183E6D11258E1251002BC9AA /* Demo2_Protocol_Impl.m in Sources */,
@@ -389,6 +414,7 @@
 				187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */,
 				183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */,
 				18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */,
+				18763F66267AF13800078D83 /* DemoBean4.m in Sources */,
 				18A6889B259879A000FF3426 /* ThreadDemo.m in Sources */,
 				18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */,
 				183E6CFE258DEB99002BC9AA /* A.m in Sources */,
@@ -406,6 +432,8 @@
 				18A6888F2598631C00FF3426 /* Dog.m in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
 				183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */,
+				18763F62267AEB5A00078D83 /* Test_Demo.cpp in Sources */,
+				1859D49D267883590052D10A /* main_5.m in Sources */,
 				18BA107C223F3656008D171F /* Protocol_Demo_Impl.m in Sources */,
 				18A6888C259861AA00FF3426 /* Animal.m in Sources */,
 				183E6D01258DEBB0002BC9AA /* B.m in Sources */,
@@ -530,6 +558,8 @@
 		18D8E62B223C90EB006E89FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -547,6 +577,8 @@
 		18D8E62C223C90EB006E89FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (

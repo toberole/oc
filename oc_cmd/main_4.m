@@ -49,22 +49,22 @@ void main4_test4(){
 void main4_test5(int *p){
     NSLock*lock = [[NSLock alloc]init];
     [NSThread detachNewThreadWithBlock:^{
-            for (int n = 0; n<1000; n++) {
-                NSLog(@"++++++++++++++++++++");
-                (*p)++;
-            }
-        }];
+        for (int n = 0; n<1000; n++) {
+            NSLog(@"++++++++++++++++++++");
+            (*p)++;
+        }
+    }];
     
     [NSThread detachNewThreadWithBlock:^{
-            for (int n = 0; n<1000; n++) {
-                NSLog(@"*******************");
-                (*p)++;
-                
-            }
-        }];
+        for (int n = 0; n<1000; n++) {
+            NSLog(@"*******************");
+            (*p)++;
+            
+        }
+    }];
 }
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
     NSLog(@"main_4 ......");
 //    main4_test3();
 //    main4_test();
@@ -74,4 +74,5 @@ int main(int argc, const char * argv[]) {
     main4_test5(&i);
     [NSThread sleepForTimeInterval:10];
     NSLog(@"i = %d",i);
+    return 0;
 }

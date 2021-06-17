@@ -180,7 +180,7 @@ void test8_main2(){
     
 }
 
-int main3(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"Hello, World!");
         printf("Hello, World! ...... printf \n");
