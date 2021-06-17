@@ -9,40 +9,44 @@
  在“.mm”文件中可以写C++ OC代码
  */
  
-@implementation OC_CALL_CPP_wrap
+@interface OC_CALL_CPP_wrap()
 
-OC_CALL_CPP * p = nullptr;
-Test_Demo*p1 = nullptr;
+@property OC_CALL_CPP * p;
+@property Test_Demo * p1;
+
+@end
+
+@implementation OC_CALL_CPP_wrap
 
 - (id)init_OC_CALL_CPP:(NSString *)name andAge:(int)age{
     self = [super init];
     
     const char*p_name = [name UTF8String];
-    p = new OC_CALL_CPP(p_name,age);
+    self.p = new OC_CALL_CPP(p_name,age);
     
     return self;
 }
 
 - (void)printInfo{
-    p->printInfo();
+    self.p->printInfo();
 }
 
 - (NSString *)getInfo{
-    return [NSString stringWithCString:p->getInfo().c_str() encoding:[NSString defaultCStringEncoding]];
+    return [NSString stringWithCString:self.p->getInfo().c_str() encoding:[NSString defaultCStringEncoding]];
 }
 
 - (void)destroy{
-    if(p){
-        delete p;
-        p = nullptr;
+    if(self.p){
+        delete self.p;
+        self.p = nullptr;
     }
 }
 
 - (void)dealloc
 {
-    if (p!=nullptr) {
-        delete p;
-        p = nullptr;
+    if (self.p!=nullptr) {
+        delete self.p;
+        self.p = nullptr;
     }
 }
 
