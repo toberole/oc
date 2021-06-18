@@ -2,8 +2,6 @@
 #import "A.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-
 // A_Category是A的分类
 // Category只能扩展方法 不能增加成员变量
 @interface A(A_Category)
