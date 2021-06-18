@@ -20,6 +20,11 @@
 		18763F62267AEB5A00078D83 /* Test_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F60267AEB5A00078D83 /* Test_Demo.cpp */; };
 		18763F66267AF13800078D83 /* DemoBean4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F65267AF13800078D83 /* DemoBean4.m */; };
 		18763F6A267AF63B00078D83 /* DemoBean5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F69267AF63B00078D83 /* DemoBean5.m */; };
+		18763F6E267B2BAF00078D83 /* Test_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F6C267B2BAF00078D83 /* Test_Demo1.cpp */; };
+		18763F72267B2C4600078D83 /* new_delete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F70267B2C4600078D83 /* new_delete.cpp */; };
+		18763F76267B4F4600078D83 /* MyNewDelete_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F74267B4F4600078D83 /* MyNewDelete_1.cpp */; };
+		18763F7A267C2E8900078D83 /* MoveDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F78267C2E8900078D83 /* MoveDemo.cpp */; };
+		18763F7F267C34CA00078D83 /* CPP_Wrap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18763F7E267C34CA00078D83 /* CPP_Wrap.mm */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
@@ -93,6 +98,16 @@
 		18763F65267AF13800078D83 /* DemoBean4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean4.m; sourceTree = "<group>"; };
 		18763F68267AF63B00078D83 /* DemoBean5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean5.h; sourceTree = "<group>"; };
 		18763F69267AF63B00078D83 /* DemoBean5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean5.m; sourceTree = "<group>"; };
+		18763F6C267B2BAF00078D83 /* Test_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test_Demo1.cpp; sourceTree = "<group>"; };
+		18763F6D267B2BAF00078D83 /* Test_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test_Demo1.hpp; sourceTree = "<group>"; };
+		18763F70267B2C4600078D83 /* new_delete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = new_delete.cpp; sourceTree = "<group>"; };
+		18763F71267B2C4600078D83 /* new_delete.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = new_delete.hpp; sourceTree = "<group>"; };
+		18763F74267B4F4600078D83 /* MyNewDelete_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyNewDelete_1.cpp; sourceTree = "<group>"; };
+		18763F75267B4F4600078D83 /* MyNewDelete_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyNewDelete_1.hpp; sourceTree = "<group>"; };
+		18763F78267C2E8900078D83 /* MoveDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoveDemo.cpp; sourceTree = "<group>"; };
+		18763F79267C2E8900078D83 /* MoveDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MoveDemo.hpp; sourceTree = "<group>"; };
+		18763F7D267C34CA00078D83 /* CPP_Wrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Wrap.h; sourceTree = "<group>"; };
+		18763F7E267C34CA00078D83 /* CPP_Wrap.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Wrap.mm; sourceTree = "<group>"; };
 		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
@@ -207,6 +222,14 @@
 				18AC5156258B46B0007EFACF /* OC_CALL_CPP.h */,
 				18763F60267AEB5A00078D83 /* Test_Demo.cpp */,
 				18763F61267AEB5A00078D83 /* Test_Demo.hpp */,
+				18763F6C267B2BAF00078D83 /* Test_Demo1.cpp */,
+				18763F6D267B2BAF00078D83 /* Test_Demo1.hpp */,
+				18763F70267B2C4600078D83 /* new_delete.cpp */,
+				18763F71267B2C4600078D83 /* new_delete.hpp */,
+				18763F74267B4F4600078D83 /* MyNewDelete_1.cpp */,
+				18763F75267B4F4600078D83 /* MyNewDelete_1.hpp */,
+				18763F78267C2E8900078D83 /* MoveDemo.cpp */,
+				18763F79267C2E8900078D83 /* MoveDemo.hpp */,
 			);
 			path = cpp_demo;
 			sourceTree = "<group>";
@@ -216,6 +239,8 @@
 			children = (
 				18AC515A258B4931007EFACF /* OC_CALL_CPP_Wrap.mm */,
 				18AC515C258B4C2D007EFACF /* OC_CALL_CPP_Wrap.h */,
+				18763F7D267C34CA00078D83 /* CPP_Wrap.h */,
+				18763F7E267C34CA00078D83 /* CPP_Wrap.mm */,
 			);
 			path = cpp_demo_wrap;
 			sourceTree = "<group>";
@@ -407,12 +432,14 @@
 				183E6D1E258EF51D002BC9AA /* main_2.m in Sources */,
 				183E6D07258E063B002BC9AA /* Demo2_Category.m in Sources */,
 				18BFC13225962FE400E67817 /* main_3.m in Sources */,
+				18763F7F267C34CA00078D83 /* CPP_Wrap.mm in Sources */,
 				18796966266B773F00473C30 /* DemoBean1.m in Sources */,
 				18BFC1362596302200E67817 /* Demo3_Test1.m in Sources */,
 				183E6D14258E3704002BC9AA /* Demo2_Copy.m in Sources */,
 				18FB35892392A087007C95BA /* Property_Stu.m in Sources */,
 				18796961266B769C00473C30 /* main_4.m in Sources */,
 				18D8E627223C90EB006E89FC /* main_0.m in Sources */,
+				18763F7A267C2E8900078D83 /* MoveDemo.cpp in Sources */,
 				18AC5165258B71AA007EFACF /* Demo2_Test1.m in Sources */,
 				18B2AA3125957724003A20A0 /* Demo_Test4.m in Sources */,
 				183E6D11258E1251002BC9AA /* Demo2_Protocol_Impl.m in Sources */,
@@ -431,11 +458,14 @@
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,
 				187969E4266E1D4F00473C30 /* DemoBean2.m in Sources */,
 				187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */,
+				18763F76267B4F4600078D83 /* MyNewDelete_1.cpp in Sources */,
 				18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */,
 				18AC5162258B5F9B007EFACF /* main_1.m in Sources */,
 				18A688922598649300FF3426 /* Cat.m in Sources */,
 				187969E8266E1DB500473C30 /* DemoBean3.m in Sources */,
+				18763F6E267B2BAF00078D83 /* Test_Demo1.cpp in Sources */,
 				18A6888F2598631C00FF3426 /* Dog.m in Sources */,
+				18763F72267B2C4600078D83 /* new_delete.cpp in Sources */,
 				18D8E631223C94F3006E89FC /* Student.m in Sources */,
 				183E6D19258E463F002BC9AA /* Demo2_protocol_1_2_Impl.m in Sources */,
 				18763F62267AEB5A00078D83 /* Test_Demo.cpp in Sources */,

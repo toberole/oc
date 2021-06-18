@@ -9,6 +9,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSString*)getInfo;
 -(void)destroy;
 
+-(void)test;
+
 @end
 
 NS_ASSUME_NONNULL_END

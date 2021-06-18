@@ -1,6 +1,8 @@
 #import <Foundation/Foundation.h>
 #import "cpp_demo_wrap/OC_CALL_CPP_Wrap.h"
 #import "demo4/DemoBean4.h"
+#import "cpp_demo_wrap/CPP_Wrap.h"
+
 
 void main5_test1(){
 //    CPP_Demo1 *demo = [[CPP_Demo1 alloc]init];
@@ -26,7 +28,17 @@ void main5_test2(){
     }
 }
 
+void main5_test3(){
+    OC_CALL_CPP_wrap*p = [[OC_CALL_CPP_wrap alloc]init_OC_CALL_CPP:@"hello" andAge:11];
+}
+
+void main5_test4(){
+    CPP_Wrap*p = [[CPP_Wrap alloc]init];
+    [p test1];
+}
+
 int main(int argc, const char * argv[]) {
     NSLog(@"test ......");
+    main5_test4();
     return 0;
 }
