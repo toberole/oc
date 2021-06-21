@@ -2,7 +2,6 @@
 #import "cpp_demo_wrap/OC_CALL_CPP_Wrap.h"
 #import "demo4/DemoBean4.h"
 #import "cpp_demo_wrap/CPP_Wrap.h"
-
 #import "demo4/DemoBean6.h"
 
 void main5_test1(){
@@ -40,8 +39,12 @@ void main5_test4(){
     DemoBean6*demo = [[DemoBean6 alloc]initWithI:0];
 }
 
+void main5_test5(){
+    printf("Hello main5_test5 ......\n");
+}
+
 int main(int argc, const char * argv[]) {
     NSLog(@"test ......");
-    main5_test4();
+    main5_test5();
     return 0;
 }
