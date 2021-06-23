@@ -36,7 +36,8 @@ void main5_test4(){
     CPP_Wrap*p = [[CPP_Wrap alloc]init];
     [p test1];
     
-    DemoBean6*demo = [[DemoBean6 alloc]initWithI:0];
+    DemoBean6*demo = [[DemoBean6 alloc]initWithI:11];
+    NSLog(@"demo: %@",[demo description]);
     
 }
 
@@ -46,6 +47,6 @@ void main5_test5(){
 
 int main(int argc, const char * argv[]) {
     NSLog(@"test ......");
-    main5_test5();
+    main5_test4();
     return 0;
 }
