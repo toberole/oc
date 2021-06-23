@@ -3,6 +3,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DemoBean6 : NSObject
+
 @property(nonatomic,assign)int i;
 
 -(instancetype)init NS_UNAVAILABLE;

@@ -37,6 +37,7 @@ void main5_test4(){
     [p test1];
     
     DemoBean6*demo = [[DemoBean6 alloc]initWithI:0];
+    
 }
 
 void main5_test5(){
