@@ -32,6 +32,17 @@ struct C_ByteAligning{
 };
 // sizeof(C_ByteAligning) = 12
 
+/**
+ 可以通过编译指令#pragma pack(N)指定N字节对齐，此时每个数据项将会按照min(N, sizeof(TYPE))进行对齐。
+ */
+#pragma pack(4)/*指定按4字节对齐 对齐参数需要时2的N次方*/
+struct D_ByteAligning{
+    char i;
+    short k;
+};
+#pragma pack()/*取消指定对齐，恢复缺省对齐*/
+// sizeof(D_ByteAligning) = 4
+
 
 
 #endif /* ByteAligning_hpp */

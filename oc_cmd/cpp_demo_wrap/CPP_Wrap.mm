@@ -26,7 +26,9 @@
 }
 
 - (void)test2{
-    NSLog(@"C_ByteAligning szie: %d",sizeof(C_ByteAligning));
+    NSLog(@"C_ByteAligning szie: %lu",sizeof(C_ByteAligning));
+    
+    NSLog(@"D_ByteAligning szie: %lu",sizeof(D_ByteAligning));
 }
 
 @end

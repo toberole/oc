@@ -1,3 +1,9 @@
+mac 切换 默认xcode 版本
+1、找到要切换的xcode版本的路径
+2、切换xcode路径的方法为：sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer（xcode路径）
+3、查看切换后的xcode版本路径：
+xcode-select -print-path
+
 xcode快捷键
     cmd+shift+y 关闭打开log面板
     cmd+a ctrl+i 代码格式化
