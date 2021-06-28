@@ -2,6 +2,7 @@
 #include "./../cpp_demo/MoveDemo.hpp"
 #include "./../cpp_demo/A1.hpp"
 #include "./../cpp_demo/B1.hpp"
+#import "./../cpp_demo/ByteAligning.hpp"
 
 @implementation CPP_Wrap
 
@@ -22,6 +23,10 @@
     a1 = new B1();
     delete a1;
     a1 = nullptr;
+}
+
+- (void)test2{
+    NSLog(@"C_ByteAligning szie: %d",sizeof(C_ByteAligning));
 }
 
 @end

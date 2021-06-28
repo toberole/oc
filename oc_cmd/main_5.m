@@ -3,6 +3,8 @@
 #import "demo4/DemoBean4.h"
 #import "cpp_demo_wrap/CPP_Wrap.h"
 #import "demo4/DemoBean6.h"
+#import "demo4/TestDemo.h"
+
 
 void main5_test1(){
 //    CPP_Demo1 *demo = [[CPP_Demo1 alloc]init];
@@ -43,10 +45,15 @@ void main5_test4(){
 
 void main5_test5(){
     printf("Hello main5_test5 ......\n");
+    TestDemo *demo = [[TestDemo alloc]init];
+    [demo test1];
+    
+    CPP_Wrap *cdemo = [[CPP_Wrap alloc]init];
+    [cdemo test2];
 }
 
 int main(int argc, const char * argv[]) {
     NSLog(@"test ......");
-    main5_test4();
+    main5_test5();
     return 0;
 }

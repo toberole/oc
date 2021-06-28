@@ -2,11 +2,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CPP_Wrap : NSObject
+@interface TestDemo : NSObject
 
 -(void)test1;
-
--(void)test2;
 
 @end
 

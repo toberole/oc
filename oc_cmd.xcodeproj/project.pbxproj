@@ -28,6 +28,8 @@
 		18763F84267C592600078D83 /* A1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F82267C592600078D83 /* A1.cpp */; };
 		18763F88267C597B00078D83 /* B1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763F86267C597B00078D83 /* B1.cpp */; };
 		18763F9E267C885800078D83 /* DemoBean6.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F9D267C885800078D83 /* DemoBean6.m */; };
+		18763FB126896ACA00078D83 /* TestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763FB026896ACA00078D83 /* TestDemo.m */; };
+		18763FC32689C2E400078D83 /* ByteAligning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763FC12689C2E400078D83 /* ByteAligning.cpp */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
@@ -120,6 +122,10 @@
 		18763F98267C799700078D83 /* WeakPtr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeakPtr.hpp; sourceTree = "<group>"; };
 		18763F9C267C885800078D83 /* DemoBean6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean6.h; sourceTree = "<group>"; };
 		18763F9D267C885800078D83 /* DemoBean6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean6.m; sourceTree = "<group>"; };
+		18763FAF26896ACA00078D83 /* TestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.h; sourceTree = "<group>"; };
+		18763FB026896ACA00078D83 /* TestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemo.m; sourceTree = "<group>"; };
+		18763FC12689C2E400078D83 /* ByteAligning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ByteAligning.cpp; sourceTree = "<group>"; };
+		18763FC22689C2E400078D83 /* ByteAligning.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ByteAligning.hpp; sourceTree = "<group>"; };
 		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
@@ -225,6 +231,8 @@
 				18763F69267AF63B00078D83 /* DemoBean5.m */,
 				18763F9C267C885800078D83 /* DemoBean6.h */,
 				18763F9D267C885800078D83 /* DemoBean6.m */,
+				18763FAF26896ACA00078D83 /* TestDemo.h */,
+				18763FB026896ACA00078D83 /* TestDemo.m */,
 			);
 			path = demo4;
 			sourceTree = "<group>";
@@ -251,6 +259,8 @@
 				18763F8E267C78FD00078D83 /* SharePtr.hpp */,
 				18763F93267C796A00078D83 /* Counter.hpp */,
 				18763F98267C799700078D83 /* WeakPtr.hpp */,
+				18763FC12689C2E400078D83 /* ByteAligning.cpp */,
+				18763FC22689C2E400078D83 /* ByteAligning.hpp */,
 			);
 			path = cpp_demo;
 			sourceTree = "<group>";
@@ -470,6 +480,7 @@
 				187A5C8D258D057400C880E0 /* Demo2_Test3.m in Sources */,
 				183E6D1C258EF071002BC9AA /* Demo2_KVC_KVO.m in Sources */,
 				18AC5157258B46B0007EFACF /* OC_CALL_CPP.cpp in Sources */,
+				18763FC32689C2E400078D83 /* ByteAligning.cpp in Sources */,
 				18763F66267AF13800078D83 /* DemoBean4.m in Sources */,
 				18A6889B259879A000FF3426 /* ThreadDemo.m in Sources */,
 				18BA1077223F3004008D171F /* Student+Category4Student.m in Sources */,
@@ -481,6 +492,7 @@
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,
 				187969E4266E1D4F00473C30 /* DemoBean2.m in Sources */,
 				187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */,
+				18763FB126896ACA00078D83 /* TestDemo.m in Sources */,
 				18763F76267B4F4600078D83 /* MyNewDelete_1.cpp in Sources */,
 				18AC515B258B4931007EFACF /* OC_CALL_CPP_Wrap.mm in Sources */,
 				18AC5162258B5F9B007EFACF /* main_1.m in Sources */,
