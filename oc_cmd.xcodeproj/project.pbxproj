@@ -30,6 +30,7 @@
 		18763F9E267C885800078D83 /* DemoBean6.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763F9D267C885800078D83 /* DemoBean6.m */; };
 		18763FB126896ACA00078D83 /* TestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18763FB026896ACA00078D83 /* TestDemo.m */; };
 		18763FC32689C2E400078D83 /* ByteAligning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18763FC12689C2E400078D83 /* ByteAligning.cpp */; };
+		18763FC7268DE32900078D83 /* CPP_Wrap1.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18763FC6268DE32900078D83 /* CPP_Wrap1.mm */; };
 		18796961266B769C00473C30 /* main_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796960266B769C00473C30 /* main_4.m */; };
 		18796966266B773F00473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796965266B773F00473C30 /* DemoBean1.m */; };
 		187969E0266DFE5D00473C30 /* Load_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969DF266DFE5D00473C30 /* Load_Initialize.m */; };
@@ -126,6 +127,8 @@
 		18763FB026896ACA00078D83 /* TestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemo.m; sourceTree = "<group>"; };
 		18763FC12689C2E400078D83 /* ByteAligning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ByteAligning.cpp; sourceTree = "<group>"; };
 		18763FC22689C2E400078D83 /* ByteAligning.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ByteAligning.hpp; sourceTree = "<group>"; };
+		18763FC5268DE32900078D83 /* CPP_Wrap1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Wrap1.h; sourceTree = "<group>"; };
+		18763FC6268DE32900078D83 /* CPP_Wrap1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Wrap1.mm; sourceTree = "<group>"; };
 		1879695E266B75B500473C30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18796960266B769C00473C30 /* main_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_4.m; sourceTree = "<group>"; };
 		18796964266B773F00473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
@@ -272,6 +275,8 @@
 				18AC515C258B4C2D007EFACF /* OC_CALL_CPP_Wrap.h */,
 				18763F7D267C34CA00078D83 /* CPP_Wrap.h */,
 				18763F7E267C34CA00078D83 /* CPP_Wrap.mm */,
+				18763FC5268DE32900078D83 /* CPP_Wrap1.h */,
+				18763FC6268DE32900078D83 /* CPP_Wrap1.mm */,
 			);
 			path = cpp_demo_wrap;
 			sourceTree = "<group>";
@@ -491,6 +496,7 @@
 				18FB35832392960F007C95BA /* Property_Test.m in Sources */,
 				183E6D04258DF95B002BC9AA /* Demo2_Property.m in Sources */,
 				187969E4266E1D4F00473C30 /* DemoBean2.m in Sources */,
+				18763FC7268DE32900078D83 /* CPP_Wrap1.mm in Sources */,
 				187A5C8A258CF70B00C880E0 /* Demo2_Test2.m in Sources */,
 				18763FB126896ACA00078D83 /* TestDemo.m in Sources */,
 				18763F76267B4F4600078D83 /* MyNewDelete_1.cpp in Sources */,
