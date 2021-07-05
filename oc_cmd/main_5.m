@@ -5,7 +5,6 @@
 #import "demo4/DemoBean6.h"
 #import "demo4/TestDemo.h"
 
-
 void main5_test1(){
 //    CPP_Demo1 *demo = [[CPP_Demo1 alloc]init];
 //    OC_CALL_CPP_wrap*cc = [[OC_CALL_CPP_wrap alloc]init];
@@ -52,8 +51,13 @@ void main5_test5(){
     [cdemo test2];
 }
 
+void main5_test6(){
+    CPP_Wrap*demo = [[CPP_Wrap alloc]init];
+    [demo test1];
+}
+
 int main(int argc, const char * argv[]) {
     NSLog(@"test ......");
-    main5_test5();
+    main5_test6();
     return 0;
 }
